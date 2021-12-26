@@ -1,8 +1,8 @@
 package sample;
 
 public class EmployeeDao {
-	public int  update(Employee employee) {
-		
+	public Employee  update(Employee employee) {
+		return employee;
 	}
 
 }
