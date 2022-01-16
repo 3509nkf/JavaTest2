@@ -31,6 +31,16 @@ public class Employee {
 		this.EmployeeName = EmployeeName;
 	}
 	
+	public String getName() {
+		return name;
+	}
+	
+	public int getId() {
+		return employeeId;
+	}
+	
+	
+	
 	
 
 }

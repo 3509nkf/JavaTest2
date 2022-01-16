@@ -1,6 +1,11 @@
 package sample;
 
-public class GreetingTest {{
+import static org.hamcrest.CoreMatchers.*;
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class GreetingTest {
 	private Greeting target = new Greeting();
 	
 	@Test
@@ -27,7 +32,7 @@ public class GreetingTest {{
 		String message = this.target.getMessage(17);
 		
 		//検証
-		assertThat(message, is("こんにちは"));
+		assertThat(message, is("こんばんは"));
 	}
 }
 	

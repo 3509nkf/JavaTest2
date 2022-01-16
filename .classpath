@@ -10,5 +10,6 @@
 	<classpathentry kind="lib" path="C:/Users/user/Downloads/jackson-databind-2.13.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/user/Downloads/jackson-core-2.13.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/user/Downloads/jackson-annotations-2.13.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
