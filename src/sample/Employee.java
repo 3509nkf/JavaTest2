@@ -1,43 +1,15 @@
 package sample;
-import java.util.List;
+import java.util.Date;
 
 
 public class Employee {
-	public String name;
-	public Integer age;
-	public List<String> licenses;
-	public Integer employeeId;
-	public String EmployeeName;
+	private String name;
+	private Integer age;
+	private Date birth;
+	private String email;
+	private String note;
 	
-	void setName(String name) {
-		this.name = name;
-		
-	}
 	
-	void setAge(Integer age) {
-		this.age = age;
-	}
-	
-	void setLicenses(List<String> licenses) {
-		this.licenses = licenses;;
-		
-	}
-	
-	void setEmployeeId(Integer employeeId) {
-		this.employeeId = employeeId;
-	}
-	
-	void setEmployeeName(String EmployeeName) {
-		this.EmployeeName = EmployeeName;
-	}
-	
-	public String getName() {
-		return name;
-	}
-	
-	public int getId() {
-		return employeeId;
-	}
 	
 	
 	

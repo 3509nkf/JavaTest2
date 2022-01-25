@@ -1,5 +1,7 @@
 package sample;
 
+import UserInfo;
+
 public class JavaTest2 {
 	@Override
 	public int hashCode() {

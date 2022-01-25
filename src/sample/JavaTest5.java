@@ -3,16 +3,11 @@ package sample;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Collections;
-import java.util.List;
 import java.util.Optional;
 
 public class JavaTest5 {
 
 	public static void main(String[] args) {
-		List<Employee> employeeList = Collections.emptyList();
-		
-		String[] header = new String[] {"name", "age","birth","email","note"};
 		
 		CellProcessor[] processors = new CellProcessor[] {
 				new NotNull(),
